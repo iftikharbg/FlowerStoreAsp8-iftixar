@@ -1,0 +1,6 @@
+﻿@model Category
+
+    <p>Category @Model.Name</p>
+    <form  method="post" asp-action="Delete" asp-controller="Category">
+        <button type="submit">Delete</button>
+    </form>
